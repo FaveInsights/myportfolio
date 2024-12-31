@@ -1,7 +1,7 @@
 import React from "react"
 import overview from "../assets/images/overview.jpg"
-import teldash from "../assets/images/teldash.jpg"
-import calldash from "../assets/images/calldash.jpg"
+import teldash from "../assets/images/teldash.JPG"
+import calldash from "../assets/images/calldash.JPG"
 
 const Dashboards = () => {
   return (
