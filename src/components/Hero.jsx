@@ -17,10 +17,10 @@ const Hero = () => {
     timeOfDay = "evening";
   }
   return (
-    <section className="flex-col md:flex-row flex w-full bg-[#E5E1DA] dark:dark dark:bg-inherit">
+    <section className="flex-col items-center md:flex-row flex w-full bg-[#E5E1DA] dark:dark dark:bg-inherit">
       <div className="w-full md:w-1/2 ">
         <div className="md:py-[40%] text-center md:text-left px-6">
-          <h2 className="md:text-4xl font-semibold secondary text-xl">
+          <h2 className="md:text-4xl mt-2 font-semibold secondary text-2xl">
             Good {timeOfDay}!
           </h2>
           <p className="mt-2 text-base md:text-lg px-5 md:px-0">
@@ -28,9 +28,9 @@ const Hero = () => {
             highly skilled Data Analyst with years of experience in the Tech
             industry.
           </p>
-          <div className=" items-center md:flex block gap-x-4">
-            <button className="btn mt-2">Get in Touch</button>
-            <div className="flex gap-2 text-center mt-3 pb-4 md:pb-0 justify-center md:justify-normal">
+          <div className=" md:items-center md:flex block gap-x-4">
+            <button className="btn my-2">Get in Touch</button>
+            <div className="flex gap-4 text-center mt-3 pb-8 md:pb-0 justify-center md:justify-normal">
               <span>
                 <a href="https://www.x.com/fav_bdk" target="_blank">
                   <FaXTwitter size={24} />
