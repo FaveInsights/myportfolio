@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.dark{
+  color-scheme: light dark; /*dark*/
+  color: rgba(255, 255, 255, 0.87); /*dark*/
+  background-color: #242424; /*dark */  
+}
+.btn{
+ @apply bg-[#B3C8CF] hover:bg-[#89A8B2] dark:bg-[#89A8B2] dark:hover:bg-[#B3C8CF] inline-block border border-none px-4 py-2 rounded-lg focus:ring-4 focus:outline-none
+}
+
+:root {
+  color-scheme: normal; /*light */
+  color: #333333; /*light */
+  background-color: #F1F0E8; /*light*/
+  /* @apply */
+}
+
+body{
+  font-family: 'Lato', Sans-serif;
+}
+.secondary{
+   font-family: 'Raleway', Sans-serif;
+}
+
