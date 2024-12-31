@@ -15,16 +15,19 @@ const MobileNav = () => {
   const closeMenu = () => {
     setMenu({ isPaneOpen: false });
   };
+  
+  
   return (
-    <>
+    <section>
       <div className="dark:dark">
         <button className="font-extrabold" onClick={openMenu}>
           <RxHamburgerMenu size={28} />
         </button>
       </div>
+
       <SlidingPane
-        className="some-custom-class overflow-hidden whitespace-nowrap"
-        overlayClassName="some-custom-overlay-class bg-blue-100 absolute z-10"
+        className="newstyle overflow-hidden whitespace-nowrap dark:dark"
+        overlayClassName="absolute z-10"
         isOpen={menu.isPaneOpen}
         hideHeader
         onRequestClose={closeMenu}
@@ -51,11 +54,10 @@ const MobileNav = () => {
               <a href="/#">Contact</a>
             </li>
           </ul>
-          
         </div>
         <br />
       </SlidingPane>
-    </>
+    </section>
   );
 };
 

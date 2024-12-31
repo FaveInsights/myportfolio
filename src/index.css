@@ -30,3 +30,8 @@ body{
 .unbounded{
 font-family: 'Unbounded', Sans-serif;
 }
+
+.newstyle{
+  background-color: #4b5563 !important;
+  color: #CCC;
+}

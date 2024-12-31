@@ -13,7 +13,7 @@ const Projects = () => {
     })
   return (
     <section
-      className="px-4 pt-2 md:px-6 bg-[#E5E1DA] dark:dark dark:bg-inherit"
+      className="px-4 pt-2 py-6 md:px-6 bg-[#E5E1DA] dark:dark dark:bg-inherit"
       id="projects"
     >
       <div>

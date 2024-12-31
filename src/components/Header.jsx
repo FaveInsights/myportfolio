@@ -11,7 +11,7 @@ const Header = () => {
           <span className="lg:hidden block">     
             <MobileNav />
           </span>
-          <h1 className="font-extrabold text-sm sm:text-2xl secondary text-[#2e4053] dark:text-[#89A8B2]">
+          <h1 className="font-extrabold text-base sm:text-2xl secondary text-[#2e4053] dark:text-[#89A8B2]">
             Favour Badakin.
           </h1>
         </div>
