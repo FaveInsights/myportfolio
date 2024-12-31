@@ -32,23 +32,26 @@ const Hero = () => {
             <button className="btn mt-2">Get in Touch</button>
             <div className="flex gap-2 text-center mt-3 pb-4 md:pb-0 justify-center md:justify-normal">
               <span>
-                <a href="#" target="_blank">
-                  <FaXTwitter />
+                <a href="https://www.x.com/fav_bdk" target="_blank">
+                  <FaXTwitter size={24} />
                 </a>
               </span>
               <span>
-                <a href="#" target="_blank">
-                  <FaLinkedin />
+                <a
+                  href="https://www.linkedin.com/in/favour-badakin-9682b319b?"
+                  target="_blank"
+                >
+                  <FaLinkedin size={24} />
                 </a>
               </span>
               <span>
-                <a href="#" target="_blank">
-                  <FaGithub />
+                <a href="https://www.github.com/faveinsights" target="_blank">
+                  <FaGithub size={24} />
                 </a>
               </span>
               <span>
-                <a href="#" target="_blank">
-                  <FaMedium />
+                <a href="https://www.medium.com/@favourbadakin" target="_blank">
+                  <FaMedium size={24} />
                 </a>
               </span>
             </div>
@@ -61,7 +64,7 @@ const Hero = () => {
           className="hidden md:block md:w-full md:h-full object-fill"
           alt="Fave"
         />
-        <img src={roundedimg} className="md:hidden h-40" alt="Fave"/>
+        <img src={roundedimg} className="md:hidden h-40" alt="Fave" />
       </div>
     </section>
   );
