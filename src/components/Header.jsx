@@ -1,6 +1,5 @@
 import React from 'react'
 import ThemeToggle from './ThemeToggle';
-import { RxHamburgerMenu } from "react-icons/rx"
 import MobileNav from './MobileNav'
 
 
@@ -9,8 +8,7 @@ const Header = () => {
     <header className="py-3 px-4 dark:dark">
       <nav className="flex align justify-between items-center">
         <div className="flex items-center space-x-4">
-          <span className="lg:hidden block">
-            {/* <RxHamburgerMenu /> */}
+          <span className="lg:hidden block">     
             <MobileNav />
           </span>
           <h1 className="font-extrabold text-sm sm:text-2xl secondary text-[#2e4053] dark:text-[#89A8B2]">

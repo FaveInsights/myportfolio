@@ -12,7 +12,10 @@ const Projects = () => {
         )
     })
   return (
-    <section className="p-4 md:px-6 bg-[#F1F0E8] dark:dark dark:bg-inherit" id="projects">
+    <section
+      className="p-4 md:px-6 bg-[#E5E1DA] dark:dark dark:bg-inherit"
+      id="projects"
+    >
       <div>
         <h2 className="text-[#89A8B2] text-center my-3 text-xl md:text-3xl">
           Projects

@@ -17,7 +17,7 @@ const MobileNav = () => {
   };
   return (
     <>
-      <div className="text-white">
+      <div className="dark:dark">
         <button className="font-extrabold" onClick={openMenu}>
           <RxHamburgerMenu size={28} />
         </button>
@@ -48,7 +48,7 @@ const MobileNav = () => {
               <a href="#dashboards">Dashboards</a>
             </li>
             <li onClick={closeMenu}>
-              <a href="/#">Contact Us</a>
+              <a href="/#">Contact</a>
             </li>
           </ul>
           
