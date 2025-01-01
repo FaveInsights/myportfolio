@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { GrClose } from "react-icons/gr";
 import SlidingPane from "react-sliding-pane";
+import { Link } from 'react-router-dom';
 import "react-sliding-pane/dist/react-sliding-pane.css";
 
 const MobileNav = () => {
@@ -13,7 +14,9 @@ const MobileNav = () => {
     setMenu({ isPaneOpen: true });
   };
   const closeMenu = () => {
-    setMenu({ isPaneOpen: false });
+
+    setMenu({ isPaneOpen: false })
+
   };
   
   
@@ -44,8 +47,10 @@ const MobileNav = () => {
             <li className="my-2" onClick={closeMenu}>
               <a href="#about">About</a>
             </li>
-            <li onClick={closeMenu}>
-              <a href="#projects">Projects</a>
+            <li>
+              <Link to="#projects" onClick={closeMenu}>
+                Projects
+              </Link>
             </li>
             <li className="my-2" onClick={closeMenu}>
               <a href="#dashboards">Dashboards</a>
