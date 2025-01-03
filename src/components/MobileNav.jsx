@@ -2,8 +2,15 @@ import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { GrClose } from "react-icons/gr";
 import SlidingPane from "react-sliding-pane";
-import { Link } from 'react-router-dom';
 import "react-sliding-pane/dist/react-sliding-pane.css";
+import {
+  Link as Rscroll,
+  Button,
+  Element,
+  Events,
+  animateScroll as scroll,
+  scrollSpy,
+} from "react-scroll";
 
 const MobileNav = () => {
   const [menu, setMenu] = useState({
@@ -44,16 +51,35 @@ const MobileNav = () => {
             <li onClick={closeMenu}>
               <a href="/#">Home</a>
             </li>
-            <li className="my-2" onClick={closeMenu}>
-              <a href="#about">About</a>
+            <li className="my-2">
+              <Rscroll
+                to="about"
+                onClick={closeMenu}
+                smooth={true}
+                duration={1000}
+              >
+                About
+              </Rscroll>
             </li>
             <li>
-              <Link to="#projects" onClick={closeMenu}>
+              <Rscroll
+                to="projects"
+                onClick={closeMenu}
+                smooth={true}
+                duration={1000}
+              >
                 Projects
-              </Link>
+              </Rscroll>
             </li>
             <li className="my-2" onClick={closeMenu}>
-              <a href="#dashboards">Dashboards</a>
+              <Rscroll
+                to="dashboards"
+                onClick={closeMenu}
+                smooth={true}
+                duration={1000}
+              >
+                Dashboards
+              </Rscroll>
             </li>
             <li onClick={closeMenu}>
               <a href="/#">Contact</a>
