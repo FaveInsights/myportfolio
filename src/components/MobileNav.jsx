@@ -5,11 +5,7 @@ import SlidingPane from "react-sliding-pane";
 import "react-sliding-pane/dist/react-sliding-pane.css";
 import {
   Link as Rscroll,
-  Button,
-  Element,
-  Events,
   animateScroll as scroll,
-  scrollSpy,
 } from "react-scroll";
 
 const MobileNav = () => {
@@ -56,6 +52,8 @@ const MobileNav = () => {
                 to="about"
                 onClick={closeMenu}
                 smooth={true}
+                spy={true}
+                offset={-65}
                 duration={1000}
               >
                 About
@@ -67,6 +65,8 @@ const MobileNav = () => {
                 onClick={closeMenu}
                 smooth={true}
                 duration={1000}
+                spy={true}
+                offset={-55}
               >
                 Projects
               </Rscroll>
@@ -76,7 +76,9 @@ const MobileNav = () => {
                 to="dashboards"
                 onClick={closeMenu}
                 smooth={true}
-                duration={1000}
+                duration={1800}
+                spy={true}
+                offset={-65}
               >
                 Dashboards
               </Rscroll>

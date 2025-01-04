@@ -17,7 +17,7 @@ const Hero = () => {
     timeOfDay = "evening";
   }
   return (
-    <section className="flex-col items-center md:flex-row flex w-full bg-[#E5E1DA] dark:dark dark:bg-inherit">
+    <section className="flex-col items-center md:flex-row flex w-full bg-[#E5E1DA] dark:dark dark:bg-inherit mt-8">
       <div className="w-full md:w-1/2 ">
         <div className="md:py-[40%] text-center md:text-left px-6">
           <h2 className="md:text-4xl mt-2 font-semibold secondary text-2xl">

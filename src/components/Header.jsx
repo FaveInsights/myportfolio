@@ -1,20 +1,21 @@
-import React from 'react'
-import ThemeToggle from './ThemeToggle';
-import MobileNav from './MobileNav'
-import { useNavigate } from 'react-router-dom';
-
+import React from "react";
+import ThemeToggle from "./ThemeToggle";
+import MobileNav from "./MobileNav";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
-
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   return (
     <header className="py-3 px-4 dark:dark">
-      <nav className="flex align justify-between items-center">
+      <nav className="flex py-2 px-4 justify-between items-center fixed top-0 left-0 w-full bg-[#F1F0E8] shadow-md dark:dark dark:bg-[#3C3C3C]">
         <div className="flex items-center space-x-4">
-          <span className="lg:hidden block">     
+          <span className="lg:hidden block">
             <MobileNav />
           </span>
-          <h1 className="font-extrabold text-base sm:text-2xl cursor-pointer secondary text-[#2e4053] dark:text-[#89A8B2]" onClick={()=>navigate('/')}>
+          <h1
+            className="font-extrabold text-base sm:text-2xl cursor-pointer secondary text-[#2e4053] dark:text-[#89A8B2]"
+            onClick={() => navigate("/")}
+          >
             Favour Badakin.
           </h1>
         </div>
@@ -40,6 +41,6 @@ const Header = () => {
       </nav>
     </header>
   );
-}
+};
 
-export default Header
+export default Header;
