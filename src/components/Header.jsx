@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 const Header = () => {
   const navigate = useNavigate();
   return (
-    <header className="py-3 px-4 dark:dark">
+    <header className="py-3 px-4 dark:dark" id="header">
       <nav className="flex py-2 px-4 justify-between items-center fixed top-0 left-0 w-full bg-[#F1F0E8] shadow-md dark:dark dark:bg-[#3C3C3C]">
         <div className="flex items-center space-x-4">
           <span className="lg:hidden block">

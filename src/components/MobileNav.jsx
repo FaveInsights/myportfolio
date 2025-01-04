@@ -44,8 +44,15 @@ const MobileNav = () => {
         </button>
         <div className="text-center">
           <ul className="text-lg font-bold mt-5">
-            <li onClick={closeMenu}>
-              <a href="/#">Home</a>
+            <li>
+              <Rscroll
+                to="header"
+                onClick={closeMenu}
+                smooth={true}
+                duration={1000}
+              >
+                Home
+              </Rscroll>
             </li>
             <li className="my-2">
               <Rscroll
