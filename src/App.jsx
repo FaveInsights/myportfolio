@@ -16,7 +16,7 @@ function App() {
       <Header />
       <Routes>
         <Route path="/" element={<Home />}></Route>
-        <Route path="/edna" element={<EdnaDashboard />}></Route>
+        {/* <Route path="/edna" element={<EdnaDashboard />}></Route> */}
         {/* <Route path="callcenter" element={<CallCenterDashboard />}></Route>
         <Route path="telecom" element={<TelecomDashboard />}></Route> */}
       </Routes>
