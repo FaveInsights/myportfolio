@@ -23,9 +23,12 @@ const Hero = () => {
           <h2 className="md:text-4xl mt-2 font-semibold secondary text-2xl">
             Good {timeOfDay}!
           </h2>
-          <p className="mt-2 text-base md:text-lg px-5 md:px-0">
-            I'm <span className="text-[#89A8B2] font-semibold">Favour</span>, a
-            highly skilled Data Analyst with years of experience in the Tech
+          <p className="mt-2 text-2xl md:text-lg px-5 leading-loose md:px-0">
+            I'm{" "}
+            <span className="text-[#2e4053] dark:text-[#89A8B2] font-semibold">
+              Favour
+            </span>
+            , a highly skilled Data Analyst with years of experience in the Tech
             industry.
           </p>
           <div className=" md:items-center md:flex block gap-x-4">
