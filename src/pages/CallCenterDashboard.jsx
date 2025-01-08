@@ -1,7 +1,7 @@
 import React from 'react'
-import calldash from "../assets/images/calldash.jpg"
-import calldash1 from "../assets/images/call3.jpg";
-import calldash2 from "../assets/images/call4.jpg"
+import calldash from "../assets/images/calldash.JPG"
+import calldash1 from "../assets/images/call3.JPG";
+import calldash2 from "../assets/images/call4.JPG"
 
 const CallCenterDashboard = () => {
   return (
