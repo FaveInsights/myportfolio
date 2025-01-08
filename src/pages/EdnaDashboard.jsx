@@ -1,13 +1,13 @@
 import React from "react";
-import overview from "../assets/images/overview.jpg";
-import p2018 from "../assets/images/2018.jpg";
-import p2019 from "../assets/images/2019.jpg";
-import p2020 from "../assets/images/2020.jpg";
-import p2021 from "../assets/images/2021.jpg";
-import revenue from "../assets/images/revenue.jpg";
-import sites from "../assets/images/sites.jpg";
-import managers from "../assets/images/managers.jpg";
-import calls from "../assets/images/calls.jpg";
+import overview from "../assets/images/overview_11zon.jpg";
+import p2018 from "../assets/images/2018_11zon.jpg";
+import p2019 from "../assets/images/2019_11zon.jpg";
+import p2020 from "../assets/images/2020_11zon.jpg";
+import p2021 from "../assets/images/2021_11zon.jpg";
+import revenue from "../assets/images/revenue_11zon.jpg";
+import sites from "../assets/images/sites_11zon.jpg";
+import managers from "../assets/images/managers_11zon.jpg";
+import calls from "../assets/images/calls_11zon.jpg";
 
 const EdnaDashboard = () => {
   return (
