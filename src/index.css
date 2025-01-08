@@ -11,7 +11,10 @@
   background-color: #242424; /*dark */  
 }
 .btn{
- @apply bg-[#B3C8CF] hover:bg-[#89A8B2] dark:bg-[#89A8B2] dark:hover:bg-[#B3C8CF] inline-block border border-none px-4 py-2 rounded-lg focus:ring-4 focus:outline-none transition}
+ @apply bg-[#B3C8CF] hover:bg-[#89A8B2] dark:bg-[#89A8B2] dark:hover:bg-[#B3C8CF] inline-block border border-none px-4 py-2 rounded-lg focus:ring-4 focus:outline-none transition me-2}
+
+ .btn2{
+ @apply  inline-block bg-inherit border border-[#2e4053] focus:outline-none hover:bg-[#89A8B2] hover:border-none focus:ring-4 focus:ring-gray-100 rounded-lg px-4 py-2 me-2 mb-2  dark:text-white dark:border-gray-600 dark:hover:bg-gray-700 dark:hover:border-gray-600 dark:focus:ring-gray-700}
 
 :root {
   color-scheme: normal; /*light */
