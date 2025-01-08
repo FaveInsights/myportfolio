@@ -12,7 +12,7 @@ import calls from "../assets/images/calls.JPG";
 const EdnaDashboard = () => {
   return (
     <>
-      <main>
+      <section>
         <div>
           <img src={overview} alt="dashboard" />
         </div>
@@ -40,7 +40,7 @@ const EdnaDashboard = () => {
         <div>
           <img src={revenue} alt="dashboard" />
         </div>
-      </main>
+      </section>
     </>
   );
 };
