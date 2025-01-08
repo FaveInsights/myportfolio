@@ -37,13 +37,13 @@ const Hero = () => {
                 1000,
                 "Your Partner in Data-Driven Decision Making.",
                 1000,
-                "Transforming Data into Actionable Strategies.",
+                "Helping Businesses to Transform Data into Actionable Strategies.",
                 1000,
               ]}
               wrapper="span"
               speed={50}
               style={{ display: "inline-block" }}
-              repeat={Infinity}
+              repeat={2}
             />
           </p>
           <div className="lg:flex block gap-x-4">
