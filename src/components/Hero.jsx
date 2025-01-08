@@ -33,7 +33,7 @@ const Hero = () => {
           </p>
           <div className=" md:items-center md:flex block gap-x-4">
             <button className="btn my-2 text-xl">Get in Touch</button>
-            <div className="flex gap-4 text-center mt-6 pb-4 md:pb-0 justify-center md:justify-normal">
+            <div className="flex gap-4 text-center mt-6 pb-8 md:pb-0 justify-center md:justify-normal">
               <span>
                 <a href="https://www.x.com/fav_bdk" target="_blank">
                   <FaXTwitter size={24} />
