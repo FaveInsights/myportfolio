@@ -34,7 +34,7 @@ const Hero = () => {
           <div className="lg:flex block gap-x-4">
             <button className="btn my-2 text-lg">Get in Touch</button>
             <a
-              href="#https://docs.google.com/document/d/1C2toW6wrKykxkWL_QgYo9dTMFCeUJdrPY4rJT-Q-Z14/edit?usp=sharing"
+              href="https://docs.google.com/document/d/1C2toW6wrKykxkWL_QgYo9dTMFCeUJdrPY4rJT-Q-Z14/edit?usp=sharing"
               className="btn2 my-2 text-lg ml-2"
             >
               Download CV
