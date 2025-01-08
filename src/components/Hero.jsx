@@ -33,8 +33,6 @@ const Hero = () => {
               sequence={[
                 "Experienced Data Analyst: Transforming Data into Action.",
                 1000,
-                "Unlocking business growth through Data-Driven Insights.",
-                1000,
                 "Your Partner in Data-Driven Decision Making.",
                 1000,
                 "Helping Businesses to Transform Data into Actionable Strategies.",
@@ -43,7 +41,7 @@ const Hero = () => {
               wrapper="span"
               speed={50}
               style={{ display: "inline-block" }}
-              repeat={2}
+              repeat={1}
             />
           </p>
           <div className="lg:flex block gap-x-4">
