@@ -17,13 +17,25 @@ const Dashboards = () => {
       </div>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-4 place-items-center">
         <Link to="/edna">
-          <img src={overview} alt="dashboard" />
+          <img
+            className="transition duration-200 ease-in-out hover:scale-110"
+            src={overview}
+            alt="dashboard"
+          />
         </Link>
-        <Link to='/callcenter'>
-          <img src={calldash} alt="dashboard" />
+        <Link to="/callcenter">
+          <img
+            className="transition duration-200 ease-in-out hover:scale-110"
+            src={calldash}
+            alt="dashboard"
+          />
         </Link>
-        <Link to='/telecom'>
-          <img src={teldash} alt="dashboard" />
+        <Link to="/telecom">
+          <img
+            className="transition duration-200 ease-in-out hover:scale-110"
+            src={teldash}
+            alt="dashboard"
+          />
         </Link>
       </div>
     </section>

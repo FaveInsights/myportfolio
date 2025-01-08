@@ -1,9 +1,25 @@
 import React from 'react'
+import calldash from "../assets/images/calldash.jpg"
+import calldash1 from "../assets/images/call3.jpg";
+import calldash2 from "../assets/images/call4.jpg"
 
 const CallCenterDashboard = () => {
   return (
-    <main className='mt-8'>CallCenterDashboard</main>
-  )
+    <main className="mt-9 px-4 grid gap-4 md:grid-cols-2">
+      <div>
+        <img src={calldash2} alt="dashboard" />
+        <p className="text-center font-semibold">Homepage</p>
+      </div>
+      <div>
+        <img src={calldash} alt="dashboard" />
+        <p className="text-center font-semibold">Drill Down</p>
+      </div>
+      <div>
+        <img src={calldash1} alt="dashboard" />
+        <p className="text-center font-semibold">Decomposition</p>
+      </div>
+    </main>
+  );
 }
 
 export default CallCenterDashboard
