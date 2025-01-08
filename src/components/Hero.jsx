@@ -3,6 +3,7 @@ import headshot2 from "../assets/images/headshot2.jpg";
 import roundedimg from "../assets/images/roundedimg.png";
 import { FaXTwitter, FaLinkedin, FaGithub } from "react-icons/fa6";
 import { FaMedium } from "react-icons/fa";
+import { TypeAnimation } from "react-type-animation";
 
 const Hero = () => {
   const date = new Date();
@@ -17,19 +18,33 @@ const Hero = () => {
     timeOfDay = "evening";
   }
   return (
-    <section className="h-[80vh] sm:h-full flex-col items-center lg:flex-row flex w-full bgg-[#E5E1DA] bg-[#B3C8CF] bg-opacity-40 dark:dark dark:bg-inherit mt-8 py-4">
-      <div className="w-full md:w-1/2 mt-8">
-        <div className="lg:py-[40%] text-center lg:text-left px-6">
-          <h2 className="lg:text-4xl mt-2 font-semibold secondary text-2xl">
-            Good {timeOfDay}!
-          </h2>
-          <p className="mt-4 text-xl md:text-lg px-5 leading-relaxed lg:px-0">
-            I'm{" "}
+    <section className="h-[70vh] sm:h-full rounded-b-3xl lg:rounded-none flex-col items-center lg:flex-row flex w-full bgg-[#E5E1DA] bg-[#B3C8CF] bg-opacity-40 dark:dark dark:bg-inherit mt-8 py-4 lg:py-0">
+      <div className="w-full md:w-1/2">
+        <div className="lg:mt-[-15rem] text-center lg:text-left px-6">
+          <h6 className="lg:text-2xl mt-2 font-semibold secondary text-xl">
+            Hello! I'm{" "}
             <span className="text-[#2e4053] dark:text-[#89A8B2] font-semibold">
+              {" "}
               Favour
             </span>
-            , a highly skilled Data Analyst with years of experience in the Tech
-            industry.
+          </h6>
+          <p className="my-6 w-full text-3xl font-bold lg:font-extrabold md:text-4xl px-5 leading-relaxed lg:px-0 lg:w-10/12">
+            <TypeAnimation
+              sequence={[
+                "Experienced Data Analyst: Transforming Data into Action.",
+                1000,
+                "Unlocking business growth through Data-Driven Insights.",
+                1000,
+                "Your Partner in Data-Driven Decision Making.",
+                1000,
+                "Transforming Data into Actionable Strategies",
+                1000,
+              ]}
+              wrapper="span"
+              speed={50}
+              style={{ display: "inline-block" }}
+              repeat={Infinity}
+            />
           </p>
           <div className="lg:flex block gap-x-4">
             <button className="btn my-2 text-lg">Get in Touch</button>
@@ -37,7 +52,7 @@ const Hero = () => {
               href="https://docs.google.com/document/d/1C2toW6wrKykxkWL_QgYo9dTMFCeUJdrPY4rJT-Q-Z14/edit?usp=sharing"
               className="btn2 my-2 text-lg ml-2"
             >
-              Download CV
+              View CV
             </a>
             <div className="flex gap-4 text-center mt-6 pb-8 md:pb-0 justify-center lg:justify-normal">
               <span>

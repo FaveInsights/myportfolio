@@ -32,8 +32,10 @@ const Header = () => {
             </li>
           </ul>
         </div>
-        <div className="space-x-4">
-          <button className="btn">Get in Touch</button>
+        <div className="space-x-4 flex items-center">
+          <span className="">
+            <button className="btn">Get in Touch</button>
+          </span>
           <span>
             <ThemeToggle />
           </span>
