@@ -18,7 +18,7 @@ const Hero = () => {
     timeOfDay = "evening";
   }
   return (
-    <section className="h-[70vh] sm:h-full rounded-b-3xl lg:rounded-none flex-col items-center lg:flex-row flex w-full bgg-[#E5E1DA] bg-[#B3C8CF] bg-opacity-40 dark:dark dark:bg-inherit mt-8 pt-4 pb-6 lg:py-0">
+    <section className="h-[70vh] sm:h-full rounded-b-3xl lg:rounded-none flex-col items-center lg:flex-row flex w-full bgg-[#E5E1DA] bg-[#B3C8CF] bg-opacity-40 dark:dark dark:bg-inherit mt-4 pt-4 pb-6 lg:py-0">
       <div className="w-full md:w-1/2">
         <div className="lg:mt-[-15rem] text-center lg:text-left px-6">
           <h6 className="lg:text-2xl mt-2 font-semibold secondary text-xl">
