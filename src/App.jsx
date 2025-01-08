@@ -5,7 +5,7 @@ import { Route, Routes} from "react-router-dom";
 import { ThemeContext } from "./ThemeContext";
 import Home from "./pages/Home";
 // import EdnaDashboard from "./pages/EdnaDashboard";
-// import CallCenterDashboard from "./pages/CallCenterDashboard";
+import CallCenterDashboard from "./pages/CallCenterDashboard";
 import TelecomDashboard from "./pages/TelecomDashboard";
 
 function App() {
@@ -17,7 +17,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}></Route>
         {/* <Route path="/edna" element={<EdnaDashboard />}></Route> */}
-        {/* <Route path="callcenter" element={<CallCenterDashboard />}></Route>*/}
+        <Route path="callcenter" element={<CallCenterDashboard />}></Route>
         <Route path="telecom" element={<TelecomDashboard />}></Route> 
       </Routes>
       <Footer />
