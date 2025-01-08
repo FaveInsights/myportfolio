@@ -2,7 +2,7 @@ import React from 'react'
 
 const CallCenterDashboard = () => {
   return (
-    <div>CallCenterDashboard</div>
+    <main className='mt-8'>CallCenterDashboard</main>
   )
 }
 
