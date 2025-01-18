@@ -37,7 +37,7 @@ const Frame = (props) => {
           <p className="font-bold">Tools:</p>
           <p className="text-xl">{icon(props.icon)}</p>
         </div> */}
-        <div className="flex justify-center items-center py-4">
+        <div className=" justify-center items-center py-4">
           <button className="btn">
             <a href={props.github} target="_blank">
               View
