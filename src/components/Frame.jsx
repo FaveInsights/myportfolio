@@ -44,7 +44,10 @@ const Frame = (props) => {
           <button
             className={`${props.medium == null ? `hidden` : `block btn ml-6`}`}
           >
-            Read Article
+           
+            <a href={props.medium} target="_blank">
+              Read Article
+            </a>
           </button>
         </div>
       </div>
