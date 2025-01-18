@@ -27,14 +27,16 @@ const Frame = (props) => {
         alt={props.title}
       />
       <div className="p-5 w-full">
-        <h2 className="mb-2 text-2xl tracking-tight text-gray-900 font-bold text-center secondary dark:text-white">
+        <p className="text-[#89A8B2] font-semibold mb-2">{props.tool}</p>
+        <h2 className="mb-2 text-2xl tracking-tight text-gray-900 font-bold secondary dark:text-white">
           {props.title}
         </h2>
+
         <p className="mb-3 font-normal">{props.desc}</p>
-        <div className="flex items-center justify-center gap-x-3">
+        {/* <div className="flex items-center justify-center gap-x-3">
           <p className="font-bold">Tools:</p>
           <p className="text-xl">{icon(props.icon)}</p>
-        </div>
+        </div> */}
         <div className="flex justify-center items-center py-4">
           <button className="btn">
             <a href={props.github} target="_blank">
@@ -44,7 +46,6 @@ const Frame = (props) => {
           <button
             className={`${props.medium == null ? `hidden` : `block btn ml-6`}`}
           >
-           
             <a href={props.medium} target="_blank">
               Read Article
             </a>
