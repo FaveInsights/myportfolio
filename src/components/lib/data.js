@@ -22,7 +22,7 @@ export default [
     image: telecom,
     tool: "PowerBI, Excel",
     github:
-      "https://www.github.com/FaveInsights/Telecommunication-Company-Churn-Analysis",
+      "https://www.github.com/FaveInsights/Telecommunications-Company-Churn-Analysis",
   },
   {
     id: 3,
