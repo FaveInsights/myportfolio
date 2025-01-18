@@ -34,7 +34,7 @@ const Header = () => {
         </div>
         <div className="space-x-4 flex items-center">
           <span className="">
-            <button className="btn">Get in Touch</button>
+            <button className="btn" onClick={()=>window.location.href = `mailto:${`favourbadakin@gmail.com`}`}>Get in Touch</button>
           </span>
           <span>
             <ThemeToggle />

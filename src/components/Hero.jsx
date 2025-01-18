@@ -41,7 +41,7 @@ const Hero = () => {
               wrapper="span"
               speed={50}
               style={{ display: "inline-block" }}
-              repeat={1}
+              repeat={0}
             />
           </p>
           <div className="lg:flex block gap-x-4">
