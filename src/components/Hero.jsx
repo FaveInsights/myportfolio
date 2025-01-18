@@ -33,9 +33,9 @@ const Hero = () => {
               sequence={[
                 "Experienced Data Analyst: Transforming Data into Action.",
                 1000,
-                "Your Partner in Data-Driven Decision Making.",
-                1000,
                 "Helping Businesses to Transform Data into Actionable Strategies.",
+                1000,
+                "Your Partner in Data-Driven Decision Making.",
                 1000,
               ]}
               wrapper="span"
