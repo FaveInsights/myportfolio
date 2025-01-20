@@ -4,20 +4,7 @@ import { BiLogoPostgresql } from "react-icons/bi";
 import { FaFileExcel } from "react-icons/fa";
 
 const Frame = (props) => {
-  const icon = () => {
-    if (props.tool == "PowerBI") {
-      return <SiAmp className="text-[#e67e22]" />;
-    } else if (props.tool == "SQL") {
-      return <BiLogoPostgresql className="text-[#0064A5]" />;
-    } else if (props.tool == "PowerBI, Excel") {
-      return (
-        <span className="flex">
-          <FaFileExcel className="text-[#1D6F42]" />
-          <SiAmp className="text-[#e67e22]" />
-        </span>
-      );
-    }
-  };
+  
 
   return (
     <div className="max-w-sm h-full border border-gray-200 rounded-lg shadow bg-[#F1F0E8]  dark:bg-[#3C3C3C] dark:border-gray-700">
