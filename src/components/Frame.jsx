@@ -1,7 +1,4 @@
 import React from "react";
-import { SiAmp } from "react-icons/si";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { FaFileExcel } from "react-icons/fa";
 
 const Frame = (props) => {
   
