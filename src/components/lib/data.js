@@ -27,7 +27,7 @@ export default [
   {
     id: 3,
     title: "Call Center Analysis",
-    desc: "Uncovering hidden insights from a raw data to aid in making strategic decisions that promote efficiency and drive growth.",
+    desc: "Uncovering hidden insights from a raw data to aid in making strategic decisions that promote efficiency, productivity, and drive sustainable business growth.",
     image: call1,
     tool: "Power BI",
     github: "https://www.github.com/FaveInsights/Call-Center-Analysis",
@@ -35,7 +35,7 @@ export default [
   {
     id: 4,
     title: "Skilled Migration Analysis",
-    desc: "Extraction of different categories of data from a large database and performing analysis on them.",
+    desc: "Extraction of different categories of data from a large database and performing in-depth statistical analysis on them.",
     image: migration,
     github: "https://www.github.com/FaveInsights/Skilled-Migration-Analysis",
     tool: "SQL",
