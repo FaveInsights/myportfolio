@@ -11,7 +11,7 @@ const Frame = (props) => {
         alt={props.title}
       />
       <div className="p-5 w-full">
-        <p className="text-[#89A8B2] font-semibold mb-2">{props.tool}</p>
+        <p className="text-[#89A8B2] font-bold mb-2 text-sm">{props.tool}</p>
         <h2 className="mb-2 text-2xl tracking-tight text-gray-900 font-bold secondary dark:text-white">
           {props.title}
         </h2>

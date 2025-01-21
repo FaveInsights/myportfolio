@@ -46,6 +46,7 @@ const MobileNav = () => {
           <ul className="text-lg font-bold mt-5">
             <li>
               <Rscroll
+              className="cursor-pointer"
                 to="header"
                 onClick={closeMenu}
                 smooth={true}
@@ -56,6 +57,7 @@ const MobileNav = () => {
             </li>
             <li className="my-2">
               <Rscroll
+              className="cursor-pointer"
                 to="about"
                 onClick={closeMenu}
                 smooth={true}
@@ -68,6 +70,7 @@ const MobileNav = () => {
             </li>
             <li>
               <Rscroll
+              className="cursor-pointer"
                 to="projects"
                 onClick={closeMenu}
                 smooth={true}
@@ -80,6 +83,7 @@ const MobileNav = () => {
             </li>
             <li className="my-2" onClick={closeMenu}>
               <Rscroll
+              className="cursor-pointer"
                 to="dashboards"
                 onClick={closeMenu}
                 smooth={true}

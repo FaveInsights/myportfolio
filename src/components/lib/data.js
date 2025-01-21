@@ -10,7 +10,7 @@ export default [
     title: "EDNA Call Center Analysis",
     desc: "Comprehensive report that provides valuable insights, recommends productivity enhancements, and revenue-boosting strategies for the company's growth.",
     image: call2,
-    tool: "PowerBI, Excel",
+    tool: "Power BI, Excel",
     medium:
       "https://medium.com/@favourbadakin/call-center-performance-analysis-identifying-opportunities-for-improvement-5536756772b3",
     github: "https://www.github.com/FaveInsights/EDNA-Call-Center-Analysis",
@@ -20,7 +20,7 @@ export default [
     title: "Telecom Company Churn Analysis",
     desc: "Analyzing customer data to identify churn drivers and inform targeted retention strategies for improved customer satisfaction.",
     image: telecom,
-    tool: "PowerBI, Excel",
+    tool: "Power BI, Excel",
     github:
       "https://www.github.com/FaveInsights/Telecommunications-Company-Churn-Analysis",
   },
@@ -29,7 +29,7 @@ export default [
     title: "Call Center Analysis",
     desc: "Uncovering hidden insights from a raw data to aid in making strategic decisions that promote efficiency and drive growth.",
     image: call1,
-    tool: "PowerBI",
+    tool: "Power BI",
     github: "https://www.github.com/FaveInsights/Call-Center-Analysis",
   },
   {

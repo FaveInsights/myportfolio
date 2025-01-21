@@ -44,7 +44,7 @@ const Hero = () => {
               repeat={0}
             />
           </p>
-          <div className="lg:flex block gap-x-4">
+          <div className="lg:inline-flex align-middle gap-x-4">
             <button
               className="btn my-2 text-lg"
               onClick={() =>
@@ -59,30 +59,31 @@ const Hero = () => {
             >
               View CV
             </a>
-            <div className="flex gap-4 text-center mt-6 pb-8 md:pb-0 justify-center lg:justify-normal">
-              <span>
+            <div className="flex items-center gap-4 mt-6 pb-8 md:pb-0">
+              
+              <div className="bg-black text-[#F1F0E8] rounded-full p-2">
                 <a href="https://www.x.com/fav_bdk" target="_blank">
-                  <FaXTwitter size={24} />
+                  <FaXTwitter size={18} />
                 </a>
-              </span>
-              <span>
+              </div>
+              <div className="bg-black text-[#F1F0E8] rounded-full p-2">
                 <a
                   href="https://www.linkedin.com/in/favour-badakin-9682b319b?"
                   target="_blank"
                 >
-                  <FaLinkedin size={24} />
+                  <FaLinkedin size={18} />
                 </a>
-              </span>
-              <span>
+              </div>
+              <div className="bg-black text-[#F1F0E8] rounded-full p-2">
                 <a href="https://www.github.com/faveinsights" target="_blank">
-                  <FaGithub size={24} />
+                  <FaGithub size={18} />
                 </a>
-              </span>
-              <span>
+              </div>
+              <div className="bg-black text-[#F1F0E8] rounded-full p-2">
                 <a href="https://www.medium.com/@favourbadakin" target="_blank">
-                  <FaMedium size={24} />
+                  <FaMedium size={18} />
                 </a>
-              </span>
+              </div>
             </div>
           </div>
         </div>
