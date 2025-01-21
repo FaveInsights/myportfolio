@@ -8,10 +8,12 @@ import revenue from "../assets/images/revenue_11zon.jpg";
 import sites from "../assets/images/sites_11zon.jpg";
 import managers from "../assets/images/managers_11zon.jpg";
 import calls from "../assets/images/calls_11zon.jpg";
+import DashboardNav from '../components/DashboardNav'
 
 const EdnaDashboard = () => {
   return (
     <>
+   <DashboardNav />
       <main className="mt-9 px-4 grid gap-4 md:grid-cols-2 xl:grid-cols-3">
         <div>
           <img src={overview} alt="dashboard" />

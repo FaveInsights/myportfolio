@@ -1,6 +1,6 @@
 import React from "react";
 import headshot2 from "../assets/images/headshot2.jpg";
-import roundedimg from "../assets/images/roundedimg.png";
+import roundedimg from "../assets/images/roundedimg2.png";
 import { FaXTwitter, FaLinkedin, FaGithub } from "react-icons/fa6";
 import { FaMedium } from "react-icons/fa";
 import { TypeAnimation } from "react-type-animation";
@@ -18,9 +18,9 @@ const Hero = () => {
     timeOfDay = "evening";
   }
   return (
-    <section className="h-[75vh] sm:h-full rounded-b-3xl lg:rounded-none flex-col items-center lg:flex-row flex w-full bg-[#B3C8CF] bg-opacity-40 dark:dark dark:bg-inherit mt-4 pt-4 pb-6 lg:py-0">
+    <section className="h-[70vh] sm:h-full lg:h-screen rounded-b-3xl lg:rounded-none flex-col items-center lg:flex-row flex w-full bg-[#B3C8CF] bg-opacity-40 dark:dark dark:bg-inherit mt-4 pt-4 pb-6 lg:py-0">
       <div className="w-full md:w-1/2">
-        <div className="lg:mt-[-15rem] text-center lg:text-left px-6">
+        <div className=" text-center lg:text-left px-6">
           <h6 className="lg:text-2xl mt-2 font-semibold secondary text-xl">
             Hello! I'm{" "}
             <span className="text-[#2e4053] dark:text-[#89A8B2] font-semibold">
@@ -91,10 +91,10 @@ const Hero = () => {
       <div className="w-full grid place-items-center pt-10 md:pt-0 lg:w-1/2 lg:h-full order-first lg:order-last">
         <img
           src={headshot2}
-          className="hidden lg:block lg:w-full lg:h-full object-fill"
+          className="hidden lg:block lg:w-full lg:h-screen object-cover object-top"
           alt="Fave"
         />
-        <img src={roundedimg} className="lg:hidden h-40" alt="Fave" />
+        <img src={roundedimg} className="lg:hidden h-32" alt="Fave" />
       </div>
     </section>
   );

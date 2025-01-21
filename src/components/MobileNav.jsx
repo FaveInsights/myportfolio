@@ -94,9 +94,7 @@ const MobileNav = () => {
                 Dashboards
               </Rscroll>
             </li>
-            <li onClick={closeMenu}>
-              <a href="/#">Contact</a>
-            </li>
+            
           </ul>
         </div>
         <br />

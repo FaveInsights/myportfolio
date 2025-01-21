@@ -1,4 +1,4 @@
-import Header from "./components/Header";
+
 import Footer from "./components/Footer";
 import { useContext } from "react";
 import { Route, Routes} from "react-router-dom";
@@ -13,7 +13,7 @@ function App() {
 
   return (
     <main className={`${theme === "dark" ? "dark" : ""}`}>
-      <Header />
+     
       <Routes>
         <Route path="/" element={<Home />}></Route>
          <Route path="/edna" element={<EdnaDashboard />}></Route> 
