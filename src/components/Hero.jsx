@@ -61,27 +61,27 @@ const Hero = () => {
             </a>
             <div className="flex items-center gap-4 mt-6 pb-8 md:pb-0">
               
-              <div className="bg-black text-[#F1F0E8] rounded-full p-2">
+              <div>
                 <a href="https://www.x.com/fav_bdk" target="_blank">
-                  <FaXTwitter size={18} />
+                  <FaXTwitter size={22} />
                 </a>
               </div>
-              <div className="bg-black text-[#F1F0E8] rounded-full p-2">
+              <div>
                 <a
                   href="https://www.linkedin.com/in/favour-badakin-9682b319b?"
                   target="_blank"
                 >
-                  <FaLinkedin size={18} />
+                  <FaLinkedin size={22} />
                 </a>
               </div>
-              <div className="bg-black text-[#F1F0E8] rounded-full p-2">
+              <div>
                 <a href="https://www.github.com/faveinsights" target="_blank">
-                  <FaGithub size={18} />
+                  <FaGithub size={22} />
                 </a>
               </div>
-              <div className="bg-black text-[#F1F0E8] rounded-full p-2">
+              <div>
                 <a href="https://www.medium.com/@favourbadakin" target="_blank">
-                  <FaMedium size={18} />
+                  <FaMedium size={22} />
                 </a>
               </div>
             </div>
