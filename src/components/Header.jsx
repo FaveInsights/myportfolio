@@ -29,21 +29,21 @@ const Header = () => {
             <li>
               <Rscroll
                to="about"
-               className="cursor-pointer pb-2 border-[#99A8B2] hover:border-b-2 transition"
+               className="cursor-pointer pb-2 border-[#99A8B2] hover:border-b-2 hover:opacity-70 transition"
                 smooth={true}
                 offset={-59}
                 duration={1000}>About</Rscroll>
             </li>
             <li>
               <Rscroll to="projects"
-               className="cursor-pointer pb-2 border-[#99A8B2] hover:border-b-2 transition"
+               className="cursor-pointer pb-2 border-[#99A8B2] hover:border-b-2 hover:opacity-70 transition"
                 smooth={true}
                 offset={-57}
                 duration={1000}>Projects</Rscroll>
             </li>
             <li>
               <Rscroll to="dashboards"
-               className="cursor-pointer pb-2 border-[#99A8B2] hover:border-b-2 transition"
+               className="cursor-pointer pb-2 border-[#99A8B2] hover:border-b-2 hover:opacity-70 transition"
                 smooth={true}
                 offset={-59}
                 duration={1000}>Dashboards</Rscroll>
