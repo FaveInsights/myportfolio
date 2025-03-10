@@ -7,6 +7,7 @@ import Home from "./pages/Home";
 import EdnaDashboard from "./pages/EdnaDashboard";
 import CallCenterDashboard from "./pages/CallCenterDashboard";
 import TelecomDashboard from "./pages/TelecomDashboard";
+import Smedia from "./pages/smedia";
 
 function App() {
   const { theme } = useContext(ThemeContext);
@@ -19,6 +20,7 @@ function App() {
          <Route path="/edna" element={<EdnaDashboard />}></Route> 
         <Route path="callcenter" element={<CallCenterDashboard />}></Route>
         <Route path="telecom" element={<TelecomDashboard />}></Route> 
+        <Route path="smedia" element={<Smedia />}></Route>
       </Routes>
       <Footer />
     </main>

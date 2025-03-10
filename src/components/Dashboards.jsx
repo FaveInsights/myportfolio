@@ -2,6 +2,7 @@ import React from "react"
 import overview from "../assets/images/overview_11zon.jpg"
 import teldash from "../assets/images/teldash.JPG"
 import calldash from "../assets/images/calldash.JPG"
+import sociala from "../assets/images/socialmediaa.JPG"
 import { Link } from "react-router-dom"
 
 const Dashboards = () => {
@@ -16,6 +17,13 @@ const Dashboards = () => {
         </h2>
       </div>
       <div className="grid sm:grid-cols-2 md:grid-cols-3 2xl:grid-cols-4 gap-4 place-items-center">
+      <Link to='/smedia'>
+        <img
+        src={sociala}
+        className="transition duration-200 ease-in-out hover:scale-110"
+        alt = "dashboard"
+        />
+        </Link>
         <Link to="/edna">
           <img
             className="transition duration-200 ease-in-out hover:scale-110"
@@ -37,6 +45,7 @@ const Dashboards = () => {
             alt="dashboard"
           />
         </Link>
+        
       </div>
     </section>
   );
