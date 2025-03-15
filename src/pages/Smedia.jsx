@@ -1,6 +1,6 @@
 import React from 'react'
 import DashboardNav from '../components/DashboardNav'
-import social from '../assets/images/socialmedia2.JPG'
+import social from '../assets/images/socialmedia2.jpg'
 import social1 from '../assets/images/socialmediaa.JPG'
 
 const Smedia = () => {
