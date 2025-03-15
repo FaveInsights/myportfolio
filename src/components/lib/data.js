@@ -20,7 +20,7 @@ export default [
     title:"Social Media Analysis",
     desc:"Designed an interactive Power BI dashboard analyzing user behavior, digital habits and well-being, delivering actionable insights through dynamic visualizations and DAX measures.",
     tool:"Power BI",
-    github:"",
+    github:"https://github.com/FaveInsights/Social-Media-Wellbeing",
     image: social
   },
   {
