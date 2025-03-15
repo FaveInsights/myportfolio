@@ -3,7 +3,7 @@ import telecom from "../../assets/images/telecom.jpg";
 import club from "../../assets/images/club.jpg";
 import call1 from "../../assets/images/call1.jpg";
 import call2 from "../../assets/images/call2.jpg";
-import social from "../../assets/images/socialmedia.JPG"
+import social from "../../assets/images/socialmedia.jpg"
 
 export default [
   {
