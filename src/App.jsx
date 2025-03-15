@@ -7,7 +7,7 @@ import Home from "./pages/Home";
 import EdnaDashboard from "./pages/EdnaDashboard";
 import CallCenterDashboard from "./pages/CallCenterDashboard";
 import TelecomDashboard from "./pages/TelecomDashboard";
-import Smedia from "./pages/smedia";
+import Smedia from "./pages/Smedia";
 
 function App() {
   const { theme } = useContext(ThemeContext);
