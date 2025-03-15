@@ -2,7 +2,7 @@ import React from "react"
 import overview from "../assets/images/overview_11zon.jpg"
 import teldash from "../assets/images/teldash.JPG"
 import calldash from "../assets/images/calldash.JPG"
-import sociala from "../assets/images/socialmediaa.JPG"
+import sociala from "../assets/images/socialmediaa.jpg"
 import { Link } from "react-router-dom"
 
 const Dashboards = () => {
